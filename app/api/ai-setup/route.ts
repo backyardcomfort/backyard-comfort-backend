@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server';
+ok import { NextResponse } from 'next/server';
 import { generateAiSetup, generateAssistantResponse } from '@/lib/openai';
 
 export async function POST(request: Request) {
